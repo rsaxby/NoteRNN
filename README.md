@@ -33,5 +33,5 @@ Unfortunately, this did not produce very coherent songs; I achieved the best res
 
 _Generated Music_
 
-1. [Sample 1](gen_3_trimmed.m4a)
-2. [Sample 2](gen_4_trimmed.m4a)
+1. [Sample 1](gen_4_trimmed.m4a)
+2. [Sample 2](gen_3_trimmed.m4a)
