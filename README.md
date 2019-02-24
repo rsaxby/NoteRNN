@@ -30,4 +30,8 @@ I stored each note sequentially in a list, and I also kept a dictionary of all m
 The first iteration was single event (e.g. note, chord, rest) prediction - equivalent to a character-level RNN. The most recent iteration was my first attempt at implementing the time-shift employed by Magenta in their [Performance-RNN model](https://magenta.tensorflow.org/performance-rnn). I used Music21 to get all events within a designated time-shift (offset). However, due to time constraints, I was not able to process at the 10ms level, and instead I used 1 second intervals. 
 
 Unfortunately, this did not produce very coherent songs; I achieved the best results by predicting 3 notes at a time. I think with more time and no memory constraints, I would like to continue to experiment with the time-shift technique. I'd also like to experiment with a CNN approach to music-generation. 
- 
+
+_Generated Music_
+
+1. [Sample 1](gen_3_trimmed.m4a)
+2. [Sample 2](gen_4_trimmed.m4a)
