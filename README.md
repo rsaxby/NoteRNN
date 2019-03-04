@@ -23,6 +23,8 @@ I was working with piano MIDI files from the [Yamaha e-Piano Junior Competition]
 
 I used [Music21](http://web.mit.edu/music21/doc/index.html) to process the MIDI files. Music21 stores MIDI events in streams, from which we can extract objects like Notes, Rests or Chords. I began by extracting each object from each song in the dataset. 
 
+Initially, I extracted all notes, rests, and chords without quantizing, chordifying, or reducing the number of chords; this led to a massive vocabulary and the network had trouble learning due to the size. Recently, I revived my project and have begun experimenting with quantizing the notes, chordifying, and reducing the number of chords in a measure. I'll post the results when I have finished these new experiments!
+
 I stored each note sequentially in a list, and I also kept a dictionary of all music21 objects, which I later used to to retrieve the objects from using the generated notes. I pickled these files to be able to recreate a dataset from them in future sessions.  
 
 #### Representation
